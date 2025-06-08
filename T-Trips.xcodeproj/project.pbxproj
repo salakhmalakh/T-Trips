@@ -68,16 +68,6 @@
 		76FFBF442DF60E5C00DD8272 /* Аутенфикация.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 76FFBF362DF60E5B00DD8272 /* Аутенфикация.pdf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		76FFBEF82DF60C9A00DD8272 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 76FFBEF42DF60C9A00DD8272 /* T-Trips.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 764CD72E2DC3EDF600900B78;
-			remoteInfo = "T-Trips";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		76FFBE9B2DF60C3900DD8272 /* T-Trips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T-Trips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FFBEB62DF60C9A00DD8272 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -125,7 +115,6 @@
 		76FFBEF12DF60C9A00DD8272 /* TripsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
 		76FFBEF22DF60C9A00DD8272 /* TripsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
 		76FFBEF32DF60C9A00DD8272 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76FFBEF42DF60C9A00DD8272 /* T-Trips.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "T-Trips.xcodeproj"; sourceTree = "<group>"; };
 		76FFBF292DF60E5B00DD8272 /* Экран долгов завершенной поездки.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Экран долгов завершенной поездки.pdf"; sourceTree = "<group>"; };
 		76FFBF2A2DF60E5B00DD8272 /* Детали расхода.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Детали расхода.pdf"; sourceTree = "<group>"; };
 		76FFBF2B2DF60E5B00DD8272 /* Стартовый экран.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Стартовый экран.pdf"; sourceTree = "<group>"; };
@@ -175,7 +164,6 @@
 			children = (
 				76FFBEB62DF60C9A00DD8272 /* .swiftlint.yml */,
 				76FFBEB72DF60C9A00DD8272 /* T-Trips */,
-				76FFBEF42DF60C9A00DD8272 /* T-Trips.xcodeproj */,
 			);
 			path = "T-Trips";
 			sourceTree = "<group>";
@@ -351,14 +339,6 @@
 			path = Trips;
 			sourceTree = "<group>";
 		};
-		76FFBEF52DF60C9A00DD8272 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				76FFBEF92DF60C9A00DD8272 /* T-Trips.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		76FFBF282DF60E5B00DD8272 /* PDFs */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,28 +407,12 @@
 			mainGroup = 76FFBE922DF60C3900DD8272;
 			productRefGroup = 76FFBE9C2DF60C3900DD8272 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 76FFBEF52DF60C9A00DD8272 /* Products */;
-					ProjectRef = 76FFBEF42DF60C9A00DD8272 /* T-Trips.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				76FFBE9A2DF60C3900DD8272 /* T-Trips */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		76FFBEF92DF60C9A00DD8272 /* T-Trips.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "T-Trips.app";
-			remoteRef = 76FFBEF82DF60C9A00DD8272 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		76FFBE992DF60C3900DD8272 /* Resources */ = {

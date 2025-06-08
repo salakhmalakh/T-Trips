@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76FFBEFA2DF60C9B00DD8272 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 76FFBEB62DF60C9A00DD8272 /* .swiftlint.yml */; };
+		76FFBEFB2DF60C9B00DD8272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FFBEB82DF60C9A00DD8272 /* Assets.xcassets */; };
+		76FFBEFC2DF60C9B00DD8272 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEBA2DF60C9A00DD8272 /* Extentions.swift */; };
+		76FFBEFD2DF60C9B00DD8272 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEBB2DF60C9A00DD8272 /* Mocks.swift */; };
+		76FFBEFE2DF60C9B00DD8272 /* Debt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEBD2DF60C9A00DD8272 /* Debt.swift */; };
+		76FFBEFF2DF60C9B00DD8272 /* TripParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEBE2DF60C9A00DD8272 /* TripParticipant.swift */; };
+		76FFBF002DF60C9B00DD8272 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEBF2DF60C9A00DD8272 /* Trip.swift */; };
+		76FFBF012DF60C9B00DD8272 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEC02DF60C9A00DD8272 /* User.swift */; };
+		76FFBF022DF60C9B00DD8272 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEC12DF60C9A00DD8272 /* Notification.swift */; };
+		76FFBF032DF60C9B00DD8272 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEC22DF60C9A00DD8272 /* Expense.swift */; };
+		76FFBF042DF60C9B00DD8272 /* ButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEC52DF60C9A00DD8272 /* ButtonFactory.swift */; };
+		76FFBF052DF60C9B00DD8272 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEC62DF60C9A00DD8272 /* CustomButton.swift */; };
+		76FFBF062DF60C9B00DD8272 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEC72DF60C9A00DD8272 /* ButtonModel.swift */; };
+		76FFBF072DF60C9B00DD8272 /* ButtonActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEC82DF60C9A00DD8272 /* ButtonActionHandler.swift */; };
+		76FFBF082DF60C9B00DD8272 /* TextFieldFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBECA2DF60C9A00DD8272 /* TextFieldFactory.swift */; };
+		76FFBF092DF60C9B00DD8272 /* CustomTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBECB2DF60C9A00DD8272 /* CustomTextFieldDelegate.swift */; };
+		76FFBF0A2DF60C9B00DD8272 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBECC2DF60C9A00DD8272 /* TextFieldModel.swift */; };
+		76FFBF0B2DF60C9B00DD8272 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBECD2DF60C9A00DD8272 /* CustomTextField.swift */; };
+		76FFBF0C2DF60C9B00DD8272 /* T_Trips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBECE2DF60C9A00DD8272 /* T_Trips.xcdatamodeld */; };
+		76FFBF0D2DF60C9B00DD8272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBED02DF60C9A00DD8272 /* AppDelegate.swift */; };
+		76FFBF0E2DF60C9B00DD8272 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76FFBED12DF60C9A00DD8272 /* Info.plist */; };
+		76FFBF0F2DF60C9B00DD8272 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBED42DF60C9A00DD8272 /* AuthViewController.swift */; };
+		76FFBF102DF60C9B00DD8272 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBED52DF60C9A00DD8272 /* AuthViewModel.swift */; };
+		76FFBF112DF60C9B00DD8272 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBED62DF60C9A00DD8272 /* AuthView.swift */; };
+		76FFBF122DF60C9B00DD8272 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBED82DF60C9A00DD8272 /* RegisterView.swift */; };
+		76FFBF132DF60C9B00DD8272 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBED92DF60C9A00DD8272 /* RegisterViewController.swift */; };
+		76FFBF142DF60C9B00DD8272 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEDA2DF60C9A00DD8272 /* RegisterViewModel.swift */; };
+		76FFBF152DF60C9B00DD8272 /* ExpenseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEDD2DF60C9A00DD8272 /* ExpenseDetailViewController.swift */; };
+		76FFBF162DF60C9B00DD8272 /* ExpenseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEDE2DF60C9A00DD8272 /* ExpenseDetailView.swift */; };
+		76FFBF172DF60C9B00DD8272 /* ExpenseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEDF2DF60C9A00DD8272 /* ExpenseDetailViewModel.swift */; };
+		76FFBF182DF60C9B00DD8272 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEE12DF60C9A00DD8272 /* FilterCell.swift */; };
+		76FFBF192DF60C9B00DD8272 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEE22DF60C9A00DD8272 /* CustomTableCell.swift */; };
+		76FFBF1A2DF60C9B00DD8272 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEE32DF60C9A00DD8272 /* MainTabBarController.swift */; };
+		76FFBF1B2DF60C9B00DD8272 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEE62DF60C9A00DD8272 /* FilterCell.swift */; };
+		76FFBF1C2DF60C9B00DD8272 /* CustomTripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEE72DF60C9A00DD8272 /* CustomTripCell.swift */; };
+		76FFBF1D2DF60C9B00DD8272 /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEE82DF60C9A00DD8272 /* TripViewModel.swift */; };
+		76FFBF1E2DF60C9B00DD8272 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEE92DF60C9A00DD8272 /* TripViewController.swift */; };
+		76FFBF1F2DF60C9B00DD8272 /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEEA2DF60C9A00DD8272 /* TripView.swift */; };
+		76FFBF202DF60C9B00DD8272 /* AddExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEEC2DF60C9A00DD8272 /* AddExpenseViewModel.swift */; };
+		76FFBF212DF60C9B00DD8272 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEED2DF60C9A00DD8272 /* AddExpenseViewController.swift */; };
+		76FFBF222DF60C9B00DD8272 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEEE2DF60C9A00DD8272 /* AddExpenseView.swift */; };
+		76FFBF232DF60C9B00DD8272 /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEF02DF60C9A00DD8272 /* TripsViewController.swift */; };
+		76FFBF242DF60C9B00DD8272 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEF12DF60C9A00DD8272 /* TripsView.swift */; };
+		76FFBF252DF60C9B00DD8272 /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEF22DF60C9A00DD8272 /* TripsViewModel.swift */; };
+		76FFBF262DF60C9B00DD8272 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFBEF32DF60C9A00DD8272 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76FFBEF82DF60C9A00DD8272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76FFBEF42DF60C9A00DD8272 /* T-Trips.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 764CD72E2DC3EDF600900B78;
+			remoteInfo = "T-Trips";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76FFBE9B2DF60C3900DD8272 /* T-Trips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T-Trips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FFBEB62DF60C9A00DD8272 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		76FFBEB82DF60C9A00DD8272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76FFBEBA2DF60C9A00DD8272 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		76FFBEBB2DF60C9A00DD8272 /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		76FFBEBD2DF60C9A00DD8272 /* Debt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debt.swift; sourceTree = "<group>"; };
+		76FFBEBE2DF60C9A00DD8272 /* TripParticipant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripParticipant.swift; sourceTree = "<group>"; };
+		76FFBEBF2DF60C9A00DD8272 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		76FFBEC02DF60C9A00DD8272 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		76FFBEC12DF60C9A00DD8272 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		76FFBEC22DF60C9A00DD8272 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		76FFBEC52DF60C9A00DD8272 /* ButtonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonFactory.swift; sourceTree = "<group>"; };
+		76FFBEC62DF60C9A00DD8272 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		76FFBEC72DF60C9A00DD8272 /* ButtonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
+		76FFBEC82DF60C9A00DD8272 /* ButtonActionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonActionHandler.swift; sourceTree = "<group>"; };
+		76FFBECA2DF60C9A00DD8272 /* TextFieldFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldFactory.swift; sourceTree = "<group>"; };
+		76FFBECB2DF60C9A00DD8272 /* CustomTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFieldDelegate.swift; sourceTree = "<group>"; };
+		76FFBECC2DF60C9A00DD8272 /* TextFieldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
+		76FFBECD2DF60C9A00DD8272 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		76FFBECF2DF60C9A00DD8272 /* T_Trips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = T_Trips.xcdatamodel; sourceTree = "<group>"; };
+		76FFBED02DF60C9A00DD8272 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76FFBED12DF60C9A00DD8272 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76FFBED42DF60C9A00DD8272 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		76FFBED52DF60C9A00DD8272 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		76FFBED62DF60C9A00DD8272 /* AuthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		76FFBED82DF60C9A00DD8272 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		76FFBED92DF60C9A00DD8272 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		76FFBEDA2DF60C9A00DD8272 /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		76FFBEDD2DF60C9A00DD8272 /* ExpenseDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseDetailViewController.swift; sourceTree = "<group>"; };
+		76FFBEDE2DF60C9A00DD8272 /* ExpenseDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseDetailView.swift; sourceTree = "<group>"; };
+		76FFBEDF2DF60C9A00DD8272 /* ExpenseDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseDetailViewModel.swift; sourceTree = "<group>"; };
+		76FFBEE12DF60C9A00DD8272 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		76FFBEE22DF60C9A00DD8272 /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		76FFBEE32DF60C9A00DD8272 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		76FFBEE62DF60C9A00DD8272 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		76FFBEE72DF60C9A00DD8272 /* CustomTripCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTripCell.swift; sourceTree = "<group>"; };
+		76FFBEE82DF60C9A00DD8272 /* TripViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
+		76FFBEE92DF60C9A00DD8272 /* TripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
+		76FFBEEA2DF60C9A00DD8272 /* TripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		76FFBEEC2DF60C9A00DD8272 /* AddExpenseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewModel.swift; sourceTree = "<group>"; };
+		76FFBEED2DF60C9A00DD8272 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		76FFBEEE2DF60C9A00DD8272 /* AddExpenseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		76FFBEF02DF60C9A00DD8272 /* TripsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsViewController.swift; sourceTree = "<group>"; };
+		76FFBEF12DF60C9A00DD8272 /* TripsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		76FFBEF22DF60C9A00DD8272 /* TripsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
+		76FFBEF32DF60C9A00DD8272 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76FFBEF42DF60C9A00DD8272 /* T-Trips.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "T-Trips.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76FFBE982DF60C3900DD8272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76FFBE922DF60C3900DD8272 = {
+			isa = PBXGroup;
+			children = (
+				76FFBEB52DF60C9A00DD8272 /* T-Trips */,
+				76FFBE9C2DF60C3900DD8272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76FFBE9C2DF60C3900DD8272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBE9B2DF60C3900DD8272 /* T-Trips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76FFBEB52DF60C9A00DD8272 /* T-Trips */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEB62DF60C9A00DD8272 /* .swiftlint.yml */,
+				76FFBEB72DF60C9A00DD8272 /* T-Trips */,
+				76FFBEF42DF60C9A00DD8272 /* T-Trips.xcodeproj */,
+			);
+			path = "T-Trips";
+			sourceTree = "<group>";
+		};
+		76FFBEB72DF60C9A00DD8272 /* T-Trips */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEB82DF60C9A00DD8272 /* Assets.xcassets */,
+				76FFBEB92DF60C9A00DD8272 /* Utils */,
+				76FFBEBC2DF60C9A00DD8272 /* Models */,
+				76FFBEC32DF60C9A00DD8272 /* CustomViews */,
+				76FFBECE2DF60C9A00DD8272 /* T_Trips.xcdatamodeld */,
+				76FFBED02DF60C9A00DD8272 /* AppDelegate.swift */,
+				76FFBED12DF60C9A00DD8272 /* Info.plist */,
+				76FFBED22DF60C9A00DD8272 /* MVVM */,
+				76FFBEF32DF60C9A00DD8272 /* SceneDelegate.swift */,
+			);
+			path = "T-Trips";
+			sourceTree = "<group>";
+		};
+		76FFBEB92DF60C9A00DD8272 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEBA2DF60C9A00DD8272 /* Extentions.swift */,
+				76FFBEBB2DF60C9A00DD8272 /* Mocks.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		76FFBEBC2DF60C9A00DD8272 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEBD2DF60C9A00DD8272 /* Debt.swift */,
+				76FFBEBE2DF60C9A00DD8272 /* TripParticipant.swift */,
+				76FFBEBF2DF60C9A00DD8272 /* Trip.swift */,
+				76FFBEC02DF60C9A00DD8272 /* User.swift */,
+				76FFBEC12DF60C9A00DD8272 /* Notification.swift */,
+				76FFBEC22DF60C9A00DD8272 /* Expense.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76FFBEC32DF60C9A00DD8272 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEC42DF60C9A00DD8272 /* CustomButton */,
+				76FFBEC92DF60C9A00DD8272 /* CustomTextField */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		76FFBEC42DF60C9A00DD8272 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEC52DF60C9A00DD8272 /* ButtonFactory.swift */,
+				76FFBEC62DF60C9A00DD8272 /* CustomButton.swift */,
+				76FFBEC72DF60C9A00DD8272 /* ButtonModel.swift */,
+				76FFBEC82DF60C9A00DD8272 /* ButtonActionHandler.swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		76FFBEC92DF60C9A00DD8272 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBECA2DF60C9A00DD8272 /* TextFieldFactory.swift */,
+				76FFBECB2DF60C9A00DD8272 /* CustomTextFieldDelegate.swift */,
+				76FFBECC2DF60C9A00DD8272 /* TextFieldModel.swift */,
+				76FFBECD2DF60C9A00DD8272 /* CustomTextField.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		76FFBED22DF60C9A00DD8272 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBED32DF60C9A00DD8272 /* Auth */,
+				76FFBED72DF60C9A00DD8272 /* Register */,
+				76FFBEDB2DF60C9A00DD8272 /* Main */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		76FFBED32DF60C9A00DD8272 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBED42DF60C9A00DD8272 /* AuthViewController.swift */,
+				76FFBED52DF60C9A00DD8272 /* AuthViewModel.swift */,
+				76FFBED62DF60C9A00DD8272 /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		76FFBED72DF60C9A00DD8272 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBED82DF60C9A00DD8272 /* RegisterView.swift */,
+				76FFBED92DF60C9A00DD8272 /* RegisterViewController.swift */,
+				76FFBEDA2DF60C9A00DD8272 /* RegisterViewModel.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		76FFBEDB2DF60C9A00DD8272 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEDC2DF60C9A00DD8272 /* ExpenseDetail */,
+				76FFBEE02DF60C9A00DD8272 /* CustomCells */,
+				76FFBEE32DF60C9A00DD8272 /* MainTabBarController.swift */,
+				76FFBEE42DF60C9A00DD8272 /* Trip */,
+				76FFBEEB2DF60C9A00DD8272 /* AddExpense */,
+				76FFBEEF2DF60C9A00DD8272 /* Trips */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		76FFBEDC2DF60C9A00DD8272 /* ExpenseDetail */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEDD2DF60C9A00DD8272 /* ExpenseDetailViewController.swift */,
+				76FFBEDE2DF60C9A00DD8272 /* ExpenseDetailView.swift */,
+				76FFBEDF2DF60C9A00DD8272 /* ExpenseDetailViewModel.swift */,
+			);
+			path = ExpenseDetail;
+			sourceTree = "<group>";
+		};
+		76FFBEE02DF60C9A00DD8272 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEE12DF60C9A00DD8272 /* FilterCell.swift */,
+				76FFBEE22DF60C9A00DD8272 /* CustomTableCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		76FFBEE42DF60C9A00DD8272 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEE52DF60C9A00DD8272 /* CustomCells */,
+				76FFBEE82DF60C9A00DD8272 /* TripViewModel.swift */,
+				76FFBEE92DF60C9A00DD8272 /* TripViewController.swift */,
+				76FFBEEA2DF60C9A00DD8272 /* TripView.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		76FFBEE52DF60C9A00DD8272 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEE62DF60C9A00DD8272 /* FilterCell.swift */,
+				76FFBEE72DF60C9A00DD8272 /* CustomTripCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		76FFBEEB2DF60C9A00DD8272 /* AddExpense */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEEC2DF60C9A00DD8272 /* AddExpenseViewModel.swift */,
+				76FFBEED2DF60C9A00DD8272 /* AddExpenseViewController.swift */,
+				76FFBEEE2DF60C9A00DD8272 /* AddExpenseView.swift */,
+			);
+			path = AddExpense;
+			sourceTree = "<group>";
+		};
+		76FFBEEF2DF60C9A00DD8272 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEF02DF60C9A00DD8272 /* TripsViewController.swift */,
+				76FFBEF12DF60C9A00DD8272 /* TripsView.swift */,
+				76FFBEF22DF60C9A00DD8272 /* TripsViewModel.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		76FFBEF52DF60C9A00DD8272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76FFBEF92DF60C9A00DD8272 /* T-Trips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76FFBE9A2DF60C3900DD8272 /* T-Trips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FFBEB22DF60C3D00DD8272 /* Build configuration list for PBXNativeTarget "T-Trips" */;
+			buildPhases = (
+				76FFBE972DF60C3900DD8272 /* Sources */,
+				76FFBE982DF60C3900DD8272 /* Frameworks */,
+				76FFBE992DF60C3900DD8272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "T-Trips";
+			productName = "T-Trips";
+			productReference = 76FFBE9B2DF60C3900DD8272 /* T-Trips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76FFBE932DF60C3900DD8272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					76FFBE9A2DF60C3900DD8272 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 76FFBE962DF60C3900DD8272 /* Build configuration list for PBXProject "T-Trips" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76FFBE922DF60C3900DD8272;
+			productRefGroup = 76FFBE9C2DF60C3900DD8272 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 76FFBEF52DF60C9A00DD8272 /* Products */;
+					ProjectRef = 76FFBEF42DF60C9A00DD8272 /* T-Trips.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				76FFBE9A2DF60C3900DD8272 /* T-Trips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		76FFBEF92DF60C9A00DD8272 /* T-Trips.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "T-Trips.app";
+			remoteRef = 76FFBEF82DF60C9A00DD8272 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76FFBE992DF60C3900DD8272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FFBEFA2DF60C9B00DD8272 /* .swiftlint.yml in Resources */,
+				76FFBF0E2DF60C9B00DD8272 /* Info.plist in Resources */,
+				76FFBEFB2DF60C9B00DD8272 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76FFBE972DF60C3900DD8272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FFBF132DF60C9B00DD8272 /* RegisterViewController.swift in Sources */,
+				76FFBF0D2DF60C9B00DD8272 /* AppDelegate.swift in Sources */,
+				76FFBF172DF60C9B00DD8272 /* ExpenseDetailViewModel.swift in Sources */,
+				76FFBF0A2DF60C9B00DD8272 /* TextFieldModel.swift in Sources */,
+				76FFBF1D2DF60C9B00DD8272 /* TripViewModel.swift in Sources */,
+				76FFBF032DF60C9B00DD8272 /* Expense.swift in Sources */,
+				76FFBF1C2DF60C9B00DD8272 /* CustomTripCell.swift in Sources */,
+				76FFBF042DF60C9B00DD8272 /* ButtonFactory.swift in Sources */,
+				76FFBF062DF60C9B00DD8272 /* ButtonModel.swift in Sources */,
+				76FFBF1F2DF60C9B00DD8272 /* TripView.swift in Sources */,
+				76FFBF0B2DF60C9B00DD8272 /* CustomTextField.swift in Sources */,
+				76FFBF152DF60C9B00DD8272 /* ExpenseDetailViewController.swift in Sources */,
+				76FFBF232DF60C9B00DD8272 /* TripsViewController.swift in Sources */,
+				76FFBF052DF60C9B00DD8272 /* CustomButton.swift in Sources */,
+				76FFBEFE2DF60C9B00DD8272 /* Debt.swift in Sources */,
+				76FFBF162DF60C9B00DD8272 /* ExpenseDetailView.swift in Sources */,
+				76FFBF1B2DF60C9B00DD8272 /* FilterCell.swift in Sources */,
+				76FFBF092DF60C9B00DD8272 /* CustomTextFieldDelegate.swift in Sources */,
+				76FFBF002DF60C9B00DD8272 /* Trip.swift in Sources */,
+				76FFBF1A2DF60C9B00DD8272 /* MainTabBarController.swift in Sources */,
+				76FFBEFC2DF60C9B00DD8272 /* Extentions.swift in Sources */,
+				76FFBF182DF60C9B00DD8272 /* FilterCell.swift in Sources */,
+				76FFBF252DF60C9B00DD8272 /* TripsViewModel.swift in Sources */,
+				76FFBF082DF60C9B00DD8272 /* TextFieldFactory.swift in Sources */,
+				76FFBF202DF60C9B00DD8272 /* AddExpenseViewModel.swift in Sources */,
+				76FFBF122DF60C9B00DD8272 /* RegisterView.swift in Sources */,
+				76FFBF262DF60C9B00DD8272 /* SceneDelegate.swift in Sources */,
+				76FFBF1E2DF60C9B00DD8272 /* TripViewController.swift in Sources */,
+				76FFBF112DF60C9B00DD8272 /* AuthView.swift in Sources */,
+				76FFBF242DF60C9B00DD8272 /* TripsView.swift in Sources */,
+				76FFBF0F2DF60C9B00DD8272 /* AuthViewController.swift in Sources */,
+				76FFBEFF2DF60C9B00DD8272 /* TripParticipant.swift in Sources */,
+				76FFBF072DF60C9B00DD8272 /* ButtonActionHandler.swift in Sources */,
+				76FFBF192DF60C9B00DD8272 /* CustomTableCell.swift in Sources */,
+				76FFBF022DF60C9B00DD8272 /* Notification.swift in Sources */,
+				76FFBF142DF60C9B00DD8272 /* RegisterViewModel.swift in Sources */,
+				76FFBF212DF60C9B00DD8272 /* AddExpenseViewController.swift in Sources */,
+				76FFBF102DF60C9B00DD8272 /* AuthViewModel.swift in Sources */,
+				76FFBF012DF60C9B00DD8272 /* User.swift in Sources */,
+				76FFBF222DF60C9B00DD8272 /* AddExpenseView.swift in Sources */,
+				76FFBF0C2DF60C9B00DD8272 /* T_Trips.xcdatamodeld in Sources */,
+				76FFBEFD2DF60C9B00DD8272 /* Mocks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76FFBEB02DF60C3D00DD8272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76FFBEB12DF60C3D00DD8272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76FFBEB32DF60C3D00DD8272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5NQU96D85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "T-Trips/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Timur-Salakhiev.T-Trips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76FFBEB42DF60C3D00DD8272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5NQU96D85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "T-Trips/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Timur-Salakhiev.T-Trips";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76FFBE962DF60C3900DD8272 /* Build configuration list for PBXProject "T-Trips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FFBEB02DF60C3D00DD8272 /* Debug */,
+				76FFBEB12DF60C3D00DD8272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FFBEB22DF60C3D00DD8272 /* Build configuration list for PBXNativeTarget "T-Trips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76FFBEB32DF60C3D00DD8272 /* Debug */,
+				76FFBEB42DF60C3D00DD8272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76FFBECE2DF60C9A00DD8272 /* T_Trips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76FFBECF2DF60C9A00DD8272 /* T_Trips.xcdatamodel */,
+			);
+			currentVersion = 76FFBECF2DF60C9A00DD8272 /* T_Trips.xcdatamodel */;
+			path = T_Trips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76FFBE932DF60C3900DD8272 /* Project object */;
+}
